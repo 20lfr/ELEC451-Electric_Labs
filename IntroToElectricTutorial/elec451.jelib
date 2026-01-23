@@ -32,7 +32,7 @@ Evdd||D5G2;|pin@6||P
 X
 
 # Cell inv;1{lay}
-Cinv;1{lay}||mocmos|1769196800427|1769211087469||DRC_last_good_drc_area_date()G1769197458821
+Cinv;1{lay}||mocmos|1769196800427|1769211844053||DRC_last_good_drc_area_date()G1769197458821
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||-16|-16||||
 NMetal-1-N-Active-Con|contact@1||-7|-16||||
@@ -71,9 +71,9 @@ AMetal-2|net@18|||S1800|contact@6||1|-8|plnode@5||1|-8
 APolysilicon-1|net@20|||S900|pmos@0|poly-left|-11.5|-3.5|pin@2||-11.5|-8
 APolysilicon-1|net@21|||S900|pin@2||-11.5|-8|nmos@0|poly-right|-11.5|-12.5
 APolysilicon-1|net@22||3|S1800|contact@4||-23|-8|pin@2||-11.5|-8
+Einput|a|D5G2;|plnode@4||U
+Eoutput|b|D5G2;|plnode@5||U
 Egnd||D5G2;|plnode@3||U
-Einput||D5G2;|plnode@4||U
-Eoutput||D5G2;|plnode@5||U
 Evdd||D5G2;|plnode@2||U
 X
 
