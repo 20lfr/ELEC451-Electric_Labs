@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html><head>
+  <title>Static Free Software 404 error page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+  <script src="function.js"></script>
+</head>
+
+<body onLoad="LoadHeader()">
+<div class="headerPart" id="headerTop"></div>
+<div class="contentPart">
+<p align="center">
+Sorry, but the address you entered is unknown at <a href="https://www.staticfreesoft.com">staticfreesoft.com</a> (error 404).
+</p>
+
+</div>
+</body>
+</html>
