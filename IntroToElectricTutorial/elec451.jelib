@@ -1,5 +1,5 @@
 # header information:
-Helec451|9.08
+Helec451|9.07
 
 # Views:
 Vicon|ic
@@ -32,7 +32,7 @@ Evdd||D5G2;|pin@6||P
 X
 
 # Cell inv;1{lay}
-Cinv;1{lay}||mocmos|1769196800427|1769197828444||DRC_last_good_drc_area_date()G1769197458821
+Cinv;1{lay}||mocmos|1769196800427|1769211087469||DRC_last_good_drc_area_date()G1769197458821
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-N-Active-Con|contact@0||-16|-16||||
 NMetal-1-N-Active-Con|contact@1||-7|-16||||
@@ -44,6 +44,7 @@ NMetal-1-Metal-2-Con|contact@6||1|-8||||
 NN-Transistor|nmos@0||-11.5|-16|||R||SIM_spice_model(D5G1;)SNMOS
 NMetal-1-Pin|pin@1||-7|-8||||
 NPolysilicon-1-Pin|pin@2||-11.5|-8||||
+Ngeneric:Invisible-Pin|pin@3||-50|-4|||||SIM_spice_card(D5G1;)S[.include C5_models.txt, Vdd vdd gnd 5, Vin a gnd PULSE 0 5 1n 0.1n 0.1n 0.4n 1n, .tran 3]
 NP-Well-Node|plnode@0||-12.5|-24|26|12||A
 NN-Well-Node|plnode@1||-13|-1.5|25|12||A
 NMetal-1-Node|plnode@2||-16|11|49|5||
