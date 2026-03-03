@@ -1,0 +1,17 @@
+*** SPICE deck for cell inv_2_layout{lay} from library elec451
+*** Created on Tue Jan 27, 2026 10:35:38
+*** Last revised on Tue Jan 27, 2026 11:05:55
+*** Written on Tue Jan 27, 2026 11:06:08 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** TOP LEVEL CELL: inv_2_layout{lay}
+Mnmos@0 b a gnd gnd NMOS L=0.6U W=0.9U AS=4.905P AD=3.285P PS=12.9U PD=7.8U
+Mpmos@0 b a vdd vdd PMOS L=0.6U W=1.8U AS=5.445P AD=3.285P PS=13.5U PD=7.8U
+
+* Spice Code nodes in cell cell 'inv_2_layout{lay}'
+.include C5_models.txt
+ Vdd vdd gnd 5
+ Vin a gnd PULSE 0 5 1n 0.1n 0.1n 0.4n 1n
+ .tran 3n
+.END

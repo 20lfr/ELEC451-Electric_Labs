@@ -2,12 +2,18 @@
 Helec451-lab1|9.07
 
 # Views:
+Vdocumentation|doc
 Vicon|ic
 Vlayout|lay
 Vschematic|sch
 
 # Technologies:
 Tmocmos|ScaleFORmocmos()D300.0
+
+# Cell lab1;1{doc}
+Clab1;1{doc}||artwork|1769628070469|1769628223120||FACET_message()S[ELEC 451 Lab1 ,"RODRIGUES, Luka","CHOKKALINGAM, Vivek","",ID: 7 .   		f = NOT(w+xy),""]
+Ngeneric:Facet-Center|art@0||0|0||||AV
+X
 
 # Cell lab1;1{ic}
 Clab1;1{ic}||artwork|1769619380337|1769619480786|E
